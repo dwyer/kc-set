@@ -14,7 +14,7 @@ table#board td {
 .card {
   /*background: transparent url('card-background.svg') no-repeat;*/
   background-color: white;
-  border: 1px solid gray;
+  border: 1px solid lightgray;
   border-radius: 8px;
   display: inline-block;
   height: 120px;
@@ -41,5 +41,5 @@ table.card td {
 }
 
 .card.selected {
-  border-color: orange;
+  border-color: red;
 }
