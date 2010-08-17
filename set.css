@@ -1,0 +1,45 @@
+table#board {
+  background-color: white ;
+  border: 1px solid darkgreen;
+  margin: auto;
+}
+
+table#board td {
+  height: 124px;
+  margin: 0px;
+  padding: 0px;
+  width: 74px;
+}
+
+.card {
+  /*background: transparent url('card-background.svg') no-repeat;*/
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+  display: inline-block;
+  height: 120px;
+  margin: 0px;
+  padding: 0px;
+  width: 70px;
+}
+
+table.card {
+  border-spacing: 0px;
+}
+
+table.card td {
+  cellpadding: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.symbol {
+  background: transparent url('images/card-label.svg');
+  height: 30px;
+  margin: 7.5px 5px;
+  width: 60px;
+}
+
+.card.selected {
+  border-color: orange;
+}
